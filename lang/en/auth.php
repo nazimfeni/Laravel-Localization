@@ -21,7 +21,10 @@ return [
         'name' =>'Name',
         'email' =>'Email',
         'password' =>'Password',
-        'password_confirmation' => 'Confirm Password'
+        'password_confirmation' => 'Confirm Password',
+        'already_registered' => 'Already Registered?',
+        'register' => 'REGISTERR',
     ],
+    'you_are_logged_in' => 'You are in Looged In!',
 
 ];

@@ -11,4 +11,12 @@ php artisan serve
 php artisan lang:publish
 ```
 
+
+
+php artisan make:middleware Localization
+
+
+
+php artisan make:controller LocalizationController --invokable
+
 ref: https://www.youtube.com/watch?v=vpmVE1hOBow&t=26s

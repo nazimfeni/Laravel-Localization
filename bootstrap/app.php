@@ -11,7 +11,8 @@ return Application::configure(basePath: dirname(__DIR__))
         health: '/up',
     )
     ->withMiddleware(function (Middleware $middleware): void {
-        //
+        // Register Localization middleware as global
+        $middleware->append(\App\Http\Middleware\Localization::class);
     })
     ->withExceptions(function (Exceptions $exceptions): void {
         //
